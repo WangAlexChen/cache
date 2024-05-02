@@ -1,0 +1,20 @@
+[02-May-2024 16:38:52 Asia/Shanghai] PHP Fatal error:  Uncaught RedisException: 由于目标计算机积极拒绝，无法连接。
+ in E:\phpstudy_pro\WWW\teamoneall\wp-content\plugins\wg-cache\src\driver\Redis.php:41
+Stack trace:
+#0 E:\phpstudy_pro\WWW\teamoneall\wp-content\plugins\wg-cache\src\driver\Redis.php(41): Redis->connect('127.0.0.1', 6379, 0)
+#1 E:\phpstudy_pro\WWW\teamoneall\wp-content\plugins\wg-cache\src\Cache.php(63): WangGe\Cache\driver\Redis->__construct(Array)
+#2 E:\phpstudy_pro\WWW\teamoneall\wp-content\plugins\wg-cache\src\Cache.php(87): WangGe\Cache\Cache::connect(Array)
+#3 E:\phpstudy_pro\WWW\teamoneall\wp-content\plugins\wg-cache\src\Cache.php(147): WangGe\Cache\Cache::init()
+#4 E:\phpstudy_pro\WWW\teamoneall\wp-content\plugins\wg-cache\examples\test.php(6): WangGe\Cache\Cache::set('test', 'test11')
+#5 {main}
+  thrown in E:\phpstudy_pro\WWW\teamoneall\wp-content\plugins\wg-cache\src\driver\Redis.php on line 41
+[02-May-2024 16:43:35 Asia/Shanghai] PHP Fatal error:  Uncaught RedisException: 由于目标计算机积极拒绝，无法连接。
+ in E:\phpstudy_pro\WWW\teamoneall\wp-content\plugins\wg-cache\src\driver\Redis.php:41
+Stack trace:
+#0 E:\phpstudy_pro\WWW\teamoneall\wp-content\plugins\wg-cache\src\driver\Redis.php(41): Redis->connect('127.0.0.1', 6379, 0)
+#1 E:\phpstudy_pro\WWW\teamoneall\wp-content\plugins\wg-cache\src\Cache.php(63): WangGe\Cache\driver\Redis->__construct(Array)
+#2 E:\phpstudy_pro\WWW\teamoneall\wp-content\plugins\wg-cache\src\Cache.php(87): WangGe\Cache\Cache::connect(Array)
+#3 E:\phpstudy_pro\WWW\teamoneall\wp-content\plugins\wg-cache\src\Cache.php(147): WangGe\Cache\Cache::init()
+#4 E:\phpstudy_pro\WWW\teamoneall\wp-content\plugins\wg-cache\examples\test.php(6): WangGe\Cache\Cache::set('test', 'test11')
+#5 {main}
+  thrown in E:\phpstudy_pro\WWW\teamoneall\wp-content\plugins\wg-cache\src\driver\Redis.php on line 41

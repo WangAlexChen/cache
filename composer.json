@@ -1,0 +1,24 @@
+{
+    "name": "wang-ge/cache",
+    "description": "PHP缓存扩展类(Redis缓存、文件缓存)",
+    "type": "library",
+    "require": {
+        "php": ">=7.0"
+    },
+    "license": "GPL-3.0-or-later",
+    "autoload": {
+        "files": [
+            "src/base.php"
+        ],
+        "psr-4": {
+            "WangGe\\Cache\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "wang",
+            "email": "869476711@qq.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
